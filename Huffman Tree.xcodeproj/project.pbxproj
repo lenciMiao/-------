@@ -1,0 +1,215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E2FD875168DCCCA00CFCC6C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E2FD874168DCCCA00CFCC6C /* main.cpp */; };
+		3E2FD877168DCCCA00CFCC6C /* Huffman_Tree.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3E2FD876168DCCCA00CFCC6C /* Huffman_Tree.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E2FD86E168DCCCA00CFCC6C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				3E2FD877168DCCCA00CFCC6C /* Huffman_Tree.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E2FD870168DCCCA00CFCC6C /* Huffman Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Huffman Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2FD874168DCCCA00CFCC6C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3E2FD876168DCCCA00CFCC6C /* Huffman_Tree.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Huffman_Tree.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E2FD86D168DCCCA00CFCC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E2FD865168DCCCA00CFCC6C = {
+			isa = PBXGroup;
+			children = (
+				3E2FD873168DCCCA00CFCC6C /* Huffman Tree */,
+				3E2FD871168DCCCA00CFCC6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E2FD871168DCCCA00CFCC6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E2FD870168DCCCA00CFCC6C /* Huffman Tree */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E2FD873168DCCCA00CFCC6C /* Huffman Tree */ = {
+			isa = PBXGroup;
+			children = (
+				3E2FD874168DCCCA00CFCC6C /* main.cpp */,
+				3E2FD876168DCCCA00CFCC6C /* Huffman_Tree.1 */,
+			);
+			path = "Huffman Tree";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E2FD86F168DCCCA00CFCC6C /* Huffman Tree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2FD87A168DCCCA00CFCC6C /* Build configuration list for PBXNativeTarget "Huffman Tree" */;
+			buildPhases = (
+				3E2FD86C168DCCCA00CFCC6C /* Sources */,
+				3E2FD86D168DCCCA00CFCC6C /* Frameworks */,
+				3E2FD86E168DCCCA00CFCC6C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Huffman Tree";
+			productName = "Huffman Tree";
+			productReference = 3E2FD870168DCCCA00CFCC6C /* Huffman Tree */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E2FD867168DCCCA00CFCC6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Soochow University";
+			};
+			buildConfigurationList = 3E2FD86A168DCCCA00CFCC6C /* Build configuration list for PBXProject "Huffman Tree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E2FD865168DCCCA00CFCC6C;
+			productRefGroup = 3E2FD871168DCCCA00CFCC6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E2FD86F168DCCCA00CFCC6C /* Huffman Tree */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E2FD86C168DCCCA00CFCC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2FD875168DCCCA00CFCC6C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3E2FD878168DCCCA00CFCC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3E2FD879168DCCCA00CFCC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3E2FD87B168DCCCA00CFCC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E2FD87C168DCCCA00CFCC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E2FD86A168DCCCA00CFCC6C /* Build configuration list for PBXProject "Huffman Tree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2FD878168DCCCA00CFCC6C /* Debug */,
+				3E2FD879168DCCCA00CFCC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2FD87A168DCCCA00CFCC6C /* Build configuration list for PBXNativeTarget "Huffman Tree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2FD87B168DCCCA00CFCC6C /* Debug */,
+				3E2FD87C168DCCCA00CFCC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E2FD867168DCCCA00CFCC6C /* Project object */;
+}
